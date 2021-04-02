@@ -1,0 +1,17 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'OCSwiftComponentMain_Example' do
+  pod 'OCSwiftComponentMain', :path => '../'
+
+  target 'OCSwiftComponentMain_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+    
+    pod 'ComponentServicesDemo', :path => '../../ComponentServicesDemo'
+    pod 'OCSwiftComponentA', :path => '../../OCSwiftComponentA'
+
+  end
+end

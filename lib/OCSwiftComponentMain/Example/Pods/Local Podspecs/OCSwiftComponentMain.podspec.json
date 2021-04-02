@@ -1,0 +1,31 @@
+{
+  "name": "OCSwiftComponentMain",
+  "version": "0.1.0",
+  "summary": "A short description of OCSwiftComponentMain.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PaulLiGe/OCSwiftComponentMain",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PaulLiGe": "2562732740@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/PaulLiGe/OCSwiftComponentMain.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "OCSwiftComponentMain/Classes/**/*.{h,m}",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "BeeHive": [
+      "~> 1.6.0"
+    ]
+  }
+}

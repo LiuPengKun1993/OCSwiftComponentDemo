@@ -1,0 +1,31 @@
+{
+  "name": "ComponentServicesDemo",
+  "version": "0.1.0",
+  "summary": "A short description of ComponentServicesDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PaulLiGe/ComponentServicesDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PaulLiGe": "2562732740@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/PaulLiGe/ComponentServicesDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ComponentServicesDemo/Classes/**/*.{h,m}",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "BeeHive": [
+      "~> 1.6.0"
+    ]
+  }
+}

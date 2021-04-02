@@ -1,0 +1,43 @@
+PODS:
+  - BeeHive (1.6.0)
+  - ComponentServicesDemo (0.1.0):
+    - BeeHive (~> 1.6.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - OCSwiftComponentA (0.1.0):
+    - BeeHive (~> 1.6.0)
+  - OCSwiftComponentMain (0.1.0):
+    - BeeHive (~> 1.6.0)
+
+DEPENDENCIES:
+  - ComponentServicesDemo (from `../../ComponentServicesDemo`)
+  - FBSnapshotTestCase
+  - OCSwiftComponentA (from `../../OCSwiftComponentA`)
+  - OCSwiftComponentMain (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - BeeHive
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ComponentServicesDemo:
+    :path: "../../ComponentServicesDemo"
+  OCSwiftComponentA:
+    :path: "../../OCSwiftComponentA"
+  OCSwiftComponentMain:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BeeHive: 64c01ddec33b9ef8813701e075eeb732327d0f75
+  ComponentServicesDemo: 4ba31957d89e130301b10067f45e4ee0c81f923e
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  OCSwiftComponentA: 50b8397788c18f3a652e53dd52efe2340698138b
+  OCSwiftComponentMain: f91e98d329aaac2ce1072deec5153e5d6488f7f6
+
+PODFILE CHECKSUM: 0426a039c26fbce34f3a02d6c670a573a8547323
+
+COCOAPODS: 1.10.1

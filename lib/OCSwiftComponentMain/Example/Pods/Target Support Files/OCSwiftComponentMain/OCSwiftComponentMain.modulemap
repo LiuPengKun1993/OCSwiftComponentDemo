@@ -1,0 +1,6 @@
+framework module OCSwiftComponentMain {
+  umbrella header "OCSwiftComponentMain-umbrella.h"
+
+  export *
+  module * { export * }
+}

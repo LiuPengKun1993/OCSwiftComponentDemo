@@ -1,0 +1,31 @@
+PODS:
+  - BeeHive (1.6.0)
+  - ComponentServicesDemo (0.1.0):
+    - BeeHive (~> 1.6.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - ComponentServicesDemo (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - BeeHive
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ComponentServicesDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BeeHive: 64c01ddec33b9ef8813701e075eeb732327d0f75
+  ComponentServicesDemo: 4ba31957d89e130301b10067f45e4ee0c81f923e
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: f0db1a4ececf6290f79fbaee6137aa8d6b1d13af
+
+COCOAPODS: 1.10.1
