@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_OCSwiftComponentDemo_OCSwiftComponentDemoUITests : NSObject
+@end
+@implementation PodsDummy_Pods_OCSwiftComponentDemo_OCSwiftComponentDemoUITests
+@end

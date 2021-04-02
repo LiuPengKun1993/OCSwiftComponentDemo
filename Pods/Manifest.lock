@@ -1,0 +1,35 @@
+PODS:
+  - BeeHive (1.6.0)
+  - ComponentServicesDemo (0.1.0):
+    - BeeHive (~> 1.6.0)
+  - OCSwiftComponentA (0.1.0):
+    - BeeHive (~> 1.6.0)
+  - OCSwiftComponentMain (0.1.0):
+    - BeeHive (~> 1.6.0)
+
+DEPENDENCIES:
+  - ComponentServicesDemo (from `lib/ComponentServicesDemo`)
+  - OCSwiftComponentA (from `lib/OCSwiftComponentA`)
+  - OCSwiftComponentMain (from `lib/OCSwiftComponentMain`)
+
+SPEC REPOS:
+  trunk:
+    - BeeHive
+
+EXTERNAL SOURCES:
+  ComponentServicesDemo:
+    :path: lib/ComponentServicesDemo
+  OCSwiftComponentA:
+    :path: lib/OCSwiftComponentA
+  OCSwiftComponentMain:
+    :path: lib/OCSwiftComponentMain
+
+SPEC CHECKSUMS:
+  BeeHive: 64c01ddec33b9ef8813701e075eeb732327d0f75
+  ComponentServicesDemo: 4ba31957d89e130301b10067f45e4ee0c81f923e
+  OCSwiftComponentA: 50b8397788c18f3a652e53dd52efe2340698138b
+  OCSwiftComponentMain: f91e98d329aaac2ce1072deec5153e5d6488f7f6
+
+PODFILE CHECKSUM: ba35391562d360fc5edc8d78a38546c0fafcca04
+
+COCOAPODS: 1.10.1

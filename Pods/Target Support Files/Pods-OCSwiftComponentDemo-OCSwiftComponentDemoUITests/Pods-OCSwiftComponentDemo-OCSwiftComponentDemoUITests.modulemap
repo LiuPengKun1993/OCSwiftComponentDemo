@@ -1,0 +1,6 @@
+framework module Pods_OCSwiftComponentDemo_OCSwiftComponentDemoUITests {
+  umbrella header "Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

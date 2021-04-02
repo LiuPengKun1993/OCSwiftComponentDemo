@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests/Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/BeeHive/BeeHive.framework
+${BUILT_PRODUCTS_DIR}/OCSwiftComponentA/OCSwiftComponentA.framework
+${BUILT_PRODUCTS_DIR}/OCSwiftComponentMain/OCSwiftComponentMain.framework

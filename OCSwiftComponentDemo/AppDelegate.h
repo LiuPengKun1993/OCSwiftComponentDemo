@@ -6,9 +6,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <BeeHive/BeeHive.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
+@interface AppDelegate : BHAppDelegate <UIApplicationDelegate>
 
 @end
 
