@@ -10,6 +10,7 @@
 #import "OCSwiftComponentAController.h"
 #import <BeeHive/BeeHive.h>
 #import "OCSwiftComponentAService.h"
+#import <OCSwiftComponentA/OCSwiftComponentA-Swift.h>
 
 @interface OCSwiftComponentAModule ()<OCSwiftComponentAService, BHModuleProtocol>
 
@@ -27,7 +28,11 @@
 
 - (nonnull UIViewController *)pushComponentAController {
     OCSwiftComponentAController *vc = [[OCSwiftComponentAController alloc] init];
-    vc.params = @{@"title":@"OCSwiftComponentA"};
+    return vc;
+}
+
+- (nonnull UIViewController *)pushSwiftComponentAController {
+    OCSwiftComponentBController *vc = [[OCSwiftComponentBController alloc] init];
     return vc;
 }
 

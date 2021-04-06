@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of OCSwiftComponentMain.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/PaulLiGe/OCSwiftComponentMain",
+  "homepage": "https://github.com/LiuPengKun1993/OCSwiftComponentMain",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "PaulLiGe": "2562732740@qq.com"
+    "LiuPengKun1993": "2562732740@qq.com"
   },
   "source": {
-    "git": "https://github.com/PaulLiGe/OCSwiftComponentMain.git",
+    "git": "https://github.com/LiuPengKun1993/OCSwiftComponentMain.git",
     "tag": "0.1.0"
   },
   "platforms": {

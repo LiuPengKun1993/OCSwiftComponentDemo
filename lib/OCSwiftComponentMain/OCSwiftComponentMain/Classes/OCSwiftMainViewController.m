@@ -17,29 +17,40 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor redColor];
-    self.navigationItem.title = @"主页";
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"有参跳转" style:UIBarButtonItemStyleDone target:self action:@selector(leftButtonClicked)];
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"无参跳转" style:UIBarButtonItemStyleDone target:self action:@selector(rightButtonClicked)];
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.navigationItem.title = @"使用 BeeHive 进行组件化练习";
     [self addSubViews];
 }
 
 - (void)addSubViews {
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 30)];
-    label.textAlignment = NSTextAlignmentCenter;
-    [self.view addSubview:label];
-    label.center = self.view.center;
-    label.text = @"使用 BeeHive 进行组件化练习";
+
+    NSArray *titleArray = @[@"OC 控制器- 有参数", @"OC 控制器 - 无参数", @"Swift 控制器"];
+    for (int i = 0; i < titleArray.count; i ++) {
+        UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+        [button setTitle:titleArray[i] forState:UIControlStateNormal];
+        button.tag = i;
+        [self.view addSubview:button];
+        [button addTarget:self action:@selector(buttonClicker:) forControlEvents:UIControlEventTouchUpInside];
+        button.frame = CGRectMake(50, i * 100 + 200, self.view.frame.size.width-100, 30);
+        button.backgroundColor = UIColor.orangeColor;
+    }
 }
 
-- (void)leftButtonClicked {
+- (void)buttonClicker:(UIButton *)button {
     id<OCSwiftComponentAService> service = [[BeeHive shareInstance] createService:@protocol(OCSwiftComponentAService)];
-    [self.navigationController pushViewController:[service pushComponentAControllerWithParams:@{@"title":@"组件化练习"}] animated:YES];
-}
-
-- (void)rightButtonClicked {
-    id<OCSwiftComponentAService> service = [[BeeHive shareInstance] createService:@protocol(OCSwiftComponentAService)];
-    [self.navigationController pushViewController:[service pushComponentAController] animated:YES];
+    switch (button.tag) {
+        case 0:
+            [self.navigationController pushViewController:[service pushComponentAControllerWithParams:@{@"title":@"组件化练习"}] animated:YES];
+            break;
+        case 1:
+            [self.navigationController pushViewController:[service pushComponentAController] animated:YES];
+            break;
+        case 2:
+            [self.navigationController pushViewController:[service pushSwiftComponentAController] animated:YES];
+            break;
+        default:
+            break;
+    }
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {

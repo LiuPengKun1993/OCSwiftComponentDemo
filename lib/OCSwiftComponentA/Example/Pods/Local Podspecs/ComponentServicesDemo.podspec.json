@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of ComponentServicesDemo.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/PaulLiGe/ComponentServicesDemo",
+  "homepage": "https://github.com/LiuPengKun1993/ComponentServicesDemo",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "PaulLiGe": "2562732740@qq.com"
+    "LiuPengKun1993": "2562732740@qq.com"
   },
   "source": {
-    "git": "https://github.com/PaulLiGe/ComponentServicesDemo.git",
+    "git": "https://github.com/LiuPengKun1993/ComponentServicesDemo.git",
     "tag": "0.1.0"
   },
   "platforms": {

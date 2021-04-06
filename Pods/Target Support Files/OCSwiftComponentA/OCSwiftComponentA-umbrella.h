@@ -11,6 +11,7 @@
 #endif
 
 #import "OCSwiftComponentAController.h"
+#import "OCSwiftComponentA.h"
 #import "OCSwiftComponentAModule.h"
 
 FOUNDATION_EXPORT double OCSwiftComponentAVersionNumber;

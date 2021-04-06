@@ -2,6 +2,8 @@ use_frameworks!
 
 platform :ios, '9.0'
 
+use_modular_headers!
+
 target 'OCSwiftComponentA_Example' do
   pod 'OCSwiftComponentA', :path => '../'
 

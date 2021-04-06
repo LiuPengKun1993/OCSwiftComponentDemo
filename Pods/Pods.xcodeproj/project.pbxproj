@@ -16,73 +16,81 @@
 				93F2E5CC93E5FD292C7040AE690BD6FF /* PBXTargetDependency */,
 			);
 			name = ComponentServicesDemo;
-			productName = ComponentServicesDemo;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		097E3185E33E4B42078AE04B70749853 /* OCSwiftComponentAController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C349A3EB7700307E0A857C5EBE648B8 /* OCSwiftComponentAController.m */; };
 		0E05AE6FE8F9E2BB7B02B13F7BE97A04 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 922599C66DCD4D194B2D8B42C811F244 /* QuartzCore.framework */; };
+		0E1C78880F2ACB25F60AABD4CDD24138 /* OCSwiftComponentMain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3BBE5D642C428A56780078A08F4CAAB /* OCSwiftComponentMain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		145AE546FE661FEB782CE07720E7AA6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F63D4E7AC5465730D198616393CAA3 /* Foundation.framework */; };
 		146067EC7E8193D8E998E45F3486A51B /* BHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9937D5E3B0C0F3E989BBBE35AE86891F /* BHRouter.m */; };
+		19156EC3126F6F0BF72C2506E034357E /* OCSwiftComponentA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F777F0FD3E77858576A29483997533C /* OCSwiftComponentA-dummy.m */; };
 		1C54E16383A6DC6F1B54CC45CC6C1FA4 /* BHContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 543E75D7FB2E1CE4B1823DF0665651DC /* BHContext.m */; };
 		1C64961BE158E8746FEBD9668AE78016 /* BeeHive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D18192038B4453C0B566BB3B2DA012 /* BeeHive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FAD56560C2B3B5C948FAC9C3AB9F7E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F63D4E7AC5465730D198616393CAA3 /* Foundation.framework */; };
 		26CEACEF398D2BA477F9170A0DBF30A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F63D4E7AC5465730D198616393CAA3 /* Foundation.framework */; };
 		2BD465BD802FA60A2D011851D80DD1CF /* BHAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB96D3C16FE3AF5D12410DB4E5DC2F6 /* BHAnnotation.m */; };
-		2CEC8D70889A81AFBD9951E10014CF10 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B4FD2284FF063FEC21F66E246608FB /* MapKit.framework */; };
 		2FB4C641EF4E4A36FD0438286E7471E8 /* BeeHive.h in Headers */ = {isa = PBXBuildFile; fileRef = B576F0815DB13726DA6860AD3AC6E568 /* BeeHive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		377F32C32574EC03BD37294902EB9098 /* Pods-OCSwiftComponentDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 975236DD2C26F11F6206718F3B2B6DFE /* Pods-OCSwiftComponentDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38C52CC52DD54D1C9E105B20230C70EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DBCB22D3A9AA0497F2403EE1C5DC6A /* UIKit.framework */; };
 		3948848C994A7D87FE9BA6D659E1A398 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F63D4E7AC5465730D198616393CAA3 /* Foundation.framework */; };
-		3BE3B283E2BE8DAF0A55B2EB7FA66CF6 /* OCSwiftComponentAModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89D971BC005D46AAE77EB46ED4D375 /* OCSwiftComponentAModule.m */; };
 		3C467B4CE595EEBA42284D7786C7FB7D /* BHServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFD5BCC8C94071CBE9CCA005A7931ED /* BHServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		406261ACED9B648C66F913CAD5592D0A /* BeeHive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4D9916A40D3111A39C82807CBD4E80 /* BeeHive.framework */; };
 		419BC1469FBD4B61BE273ECCEE00E8E4 /* BHWatchDog.m in Sources */ = {isa = PBXBuildFile; fileRef = C568745E0926A27A94F5660EBF91554F /* BHWatchDog.m */; };
+		4C29B45D6A82390DD9EC45D214DD3035 /* OCSwiftMainModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFF891A72AC0E281EF2CDDA2E11D822 /* OCSwiftMainModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EE9196FAAE05F8A1ABDC6CE0F1CC5E7 /* BHDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = FF890E12737A08D171656C3C5FB2227F /* BHDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		518D2D971FA60C9FDA5FF4CE9E1EDDDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F63D4E7AC5465730D198616393CAA3 /* Foundation.framework */; };
-		5A43752552867812EFDB15AB03065D14 /* BeeHive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4D9916A40D3111A39C82807CBD4E80 /* BeeHive.framework */; };
-		5B3921285B9EAE12B5043073DF7E92CA /* OCSwiftComponentA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77595038855B4144A12B83AFFBCCC39F /* OCSwiftComponentA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D4E9DE1EE933E45D1D8B5D4CA82883E /* BHCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B7B5F934245240B05CEFC7A2BE8B566 /* BHCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6080C2F77FAE37D0286B379B5FB77126 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B4FD2284FF063FEC21F66E246608FB /* MapKit.framework */; };
 		632D7E90B9B0FD3C0DAC58C478985680 /* BHModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 881CB1570CCAF1A5AFCC231389FB0DE9 /* BHModuleManager.m */; };
-		6E83BEFD692C3A0FC4605F969FC0A9BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DBCB22D3A9AA0497F2403EE1C5DC6A /* UIKit.framework */; };
-		74068C4999D4F5600A7A0CB5504F5072 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B4FD2284FF063FEC21F66E246608FB /* MapKit.framework */; };
 		79857E64CB5DC7A907BE7232CD1B07AC /* BeeHive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB740FFFF8AAC7216D9416101C5B589 /* BeeHive-dummy.m */; };
+		7E9ECD72695199EF86B41ECE2C89DB9A /* OCSwiftComponentAController.h in Headers */ = {isa = PBXBuildFile; fileRef = 54FD8A857919DBD0954F205F73C11D9F /* OCSwiftComponentAController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		813C20A055D1DC9A79022E9EEA05135F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DBCB22D3A9AA0497F2403EE1C5DC6A /* UIKit.framework */; };
-		83B23BEBC9A4D3AAA724FB0AF90A66AE /* OCSwiftMainModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E6665EB0F1DE89E0592E1B2D822431A9 /* OCSwiftMainModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8899C9E5ADC486092E541AC3BA5AEC89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DBCB22D3A9AA0497F2403EE1C5DC6A /* UIKit.framework */; };
 		898B91A33BABC371D6A1711051063F0C /* BHServiceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 16DC86BE39A76D5BEA9DC1524EC1B3FD /* BHServiceProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89EB4E99881F93731074D156F946BD78 /* BHTimeProfiler.h in Headers */ = {isa = PBXBuildFile; fileRef = DFF8CF75DA2F2B5CEF154E443CD5A16D /* BHTimeProfiler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A8D0E2962C26F79AFCA29F5FFA4FF5E /* OCSwiftMainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EBF6580D4F7B8E7CB8B5DB11C00789 /* OCSwiftMainModel.m */; };
-		8D31629037285F3C9AB11CFAA2C457BF /* OCSwiftMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F16E61209B2035AFC7921767801202BD /* OCSwiftMainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DD62816F66A53C3BC795AC0F41D3F01 /* OCSwiftComponentMain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B651037956D853CBAB07918B40B7C59 /* OCSwiftComponentMain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B050798F41813E889387EB0E4E12260 /* OCSwiftComponentAModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C60D2497BF31771D809B963585AD0374 /* OCSwiftComponentAModule.m */; };
+		925CB8898BF2C843E0F114AB6432A632 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B4FD2284FF063FEC21F66E246608FB /* MapKit.framework */; };
+		962C5ADB1453B467F13A9C77CF899802 /* OCSwiftComponentA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 375404C328835ECF99A508F491FCB488 /* OCSwiftComponentA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99D12A11122F335A1CA38AC6EBB8A8E0 /* BeeHive.m in Sources */ = {isa = PBXBuildFile; fileRef = FB98DD2944BF9A32FADF99AA9EDB6F5D /* BeeHive.m */; };
+		9E2EDCB73A2B16BBF6B68FCD6211D705 /* OCSwiftComponentAModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 196055D39356153B38A32192AAC5AE1C /* OCSwiftComponentAModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FF110DEEBDE1CCDC0C44F084FD0A3E6 /* BHWatchDog.h in Headers */ = {isa = PBXBuildFile; fileRef = 33D9AE76B60AED86C3CA01456C12B20F /* BHWatchDog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A23245346FF4ECDE99992D91E31F029E /* BHContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D84314AE7446E788CD704AA9D5FD90D /* BHContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A48C2E3BE668B3156E9A17CF736040B6 /* OCSwiftComponentA.h in Headers */ = {isa = PBXBuildFile; fileRef = 81CE0D73E77B405CB45F5F2E2640035F /* OCSwiftComponentA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5AF36F6BC7DC560550E139F55B97AB8 /* BHRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D6E7AF136ACEAF7976B47A0D85090C /* BHRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7869D4AC3A4004C4FFF9979C7FF6B24 /* OCSwiftMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3E711C1C6E528DA31B8C3BAB4B6099 /* OCSwiftMainViewController.m */; };
 		A8CCEB8B35A52F82966EAA9625E8AC27 /* Pods-OCSwiftComponentDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40020BE58C727EDE672E2B7F808D397B /* Pods-OCSwiftComponentDemoTests-dummy.m */; };
+		AB1D9F1369CDFCC44B308AF1A45A6FC6 /* OCSwiftMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 75CBC6F96384FF589973E7B9EB02842F /* OCSwiftMainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABAB55D84587D65289C761ECCF3DD36F /* BHModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 44DDD0C511AE6C2B1694C6FCD93832FD /* BHModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC0031FF9841C11E09769DCC61EE06A9 /* BHAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6779F20B2C4171342D9FF996737C77A8 /* BHAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ACD8F15AF7C364B8D211EAEC6310BAE3 /* OCSwiftMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E5B96C50B550EA48088CFFA37F2A74 /* OCSwiftMainViewController.m */; };
 		B01609515857FE02B88397F3AFBAD079 /* BHTimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F8AC05F6193A4390F5229E0B8584E8 /* BHTimeProfiler.m */; };
 		BB0B4C587B48FD4F281D0F24EE4A9756 /* Pods-OCSwiftComponentDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E288314D3D95890699274148F891279D /* Pods-OCSwiftComponentDemo-dummy.m */; };
+		BB21F49B6564ACCA7DEBC48479382B8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F63D4E7AC5465730D198616393CAA3 /* Foundation.framework */; };
+		BDFCB676905B2E370BDDB7D2E7B85457 /* BeeHive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4D9916A40D3111A39C82807CBD4E80 /* BeeHive.framework */; };
 		C08814BAD48BC179EB5045762B5C978E /* Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA80116BEDA2F2EFA09955B937F38079 /* Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1185C0BD3417B8F2730641E94AD8CB5 /* OCSwiftMainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8077BE7C7CC290D3360C2D4612DF62 /* OCSwiftMainModel.m */; };
 		C2DA0D8C32B283617B251F61F3AB664A /* BHServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 169121A4EDDFB6A5D9B0F695FCD7A3BC /* BHServiceManager.m */; };
-		C55B9C85E07A489242CF9DF6F42DB9A3 /* OCSwiftComponentAModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 7714E2DE3EA0606B66A4A9AC58F72382 /* OCSwiftComponentAModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA8A63DD119B3BAF2869958290082066 /* Pods-OCSwiftComponentDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4024347C3BBBA75D89090BF1544DA424 /* Pods-OCSwiftComponentDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D26BF9540E6B39368BE7C8E6493CBFC3 /* OCSwiftComponentA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EF91571056E29D79F70C1032CC457F /* OCSwiftComponentA-dummy.m */; };
-		D3A3839ABD2572C0789F6B5466B30172 /* OCSwiftComponentAController.h in Headers */ = {isa = PBXBuildFile; fileRef = A3BB751DD750057A3FC1C7A54E86A4FC /* OCSwiftComponentAController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5DFE8BF0DA47A2EF5D1556ACE2076A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F63D4E7AC5465730D198616393CAA3 /* Foundation.framework */; };
+		CDF398C3EB0E58A0EE1546E6CFF3CFD2 /* OCSwiftComponentMain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F00A01FDE62D23A0F1FFEECE70A9B01F /* OCSwiftComponentMain-dummy.m */; };
+		D52B614ADD1329A002ADBB34BA4E2CA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DBCB22D3A9AA0497F2403EE1C5DC6A /* UIKit.framework */; };
 		D6DA33D91C5711FCBCFB8275F03C012D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F63D4E7AC5465730D198616393CAA3 /* Foundation.framework */; };
-		D804B2863FEBB71B787081DED9E73EC4 /* OCSwiftComponentMain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD9AC67773F90153A3BD901DE924895 /* OCSwiftComponentMain-dummy.m */; };
+		ED82D31486A9DCB788CA9074455E7324 /* BeeHive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4D9916A40D3111A39C82807CBD4E80 /* BeeHive.framework */; };
 		EF473B820ACF4EF347B1F88370B72699 /* BHModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D9185DB9C91355D2637923D70F9D31 /* BHModuleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0366C86AF74DE928AD77E965A66A739 /* BHConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 19925C958C14919F5AC585D36DC2CD64 /* BHConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F22CA1A3C029CEAC125190F6AA2B6AC1 /* BHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F1DE63AF91D0A9FD262824CFC02F21 /* BHAppDelegate.m */; };
 		F56F1101293A67143B81C5F92CF485EC /* Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C144AAB9A2E254107D10A01CE2DB2F96 /* Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests-dummy.m */; };
+		F6B3E1B9BAE3DF1490B96E45B52E3BCC /* OCSwiftComponentAController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CE4A500109E19285158C3FB6895B59 /* OCSwiftComponentAController.m */; };
 		FD327E7F9A7D3CA48EF3AD6616F9233A /* BHAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F27E7FD8C5C4108ECE2D28D6CE89D7 /* BHAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD840176BC091BB1C3CA356D02BB6507 /* BeeHive.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01ABDD3BC60A5B67E0D20B2D4D8DE960 /* BeeHive.bundle */; };
 		FF709BF273727C1A83B8A3E10C32C8BC /* BHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B15C810E5A5BBFAB535A9C9B9EE204 /* BHConfig.m */; };
+		FFB6A6499ABF06098E88D34963DCA153 /* OCSwiftComponentBController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16B033EBD872DC2EE158B0F9406998B /* OCSwiftComponentBController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0FD6CCE5843A4EEA8E024CECBBF67CEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E76166BB846ABC770B86A7F988894306;
+			remoteInfo = OCSwiftComponentMain;
+		};
 		4023F5403E78FB5002EDA65E51396568 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -97,14 +105,7 @@
 			remoteGlobalIDString = 7D9187B40839BB7FEC25B4C72E53B259;
 			remoteInfo = ComponentServicesDemo;
 		};
-		7E67CB2B499E515A669B482D4480171D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E76166BB846ABC770B86A7F988894306;
-			remoteInfo = OCSwiftComponentMain;
-		};
-		8BECA8D63D9B94136349AED720F62908 /* PBXContainerItemProxy */ = {
+		624A485FF37AFCBEB30D474EE29E02DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -117,6 +118,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 6642A486172C0E02A757A1E1DD1574EA;
 			remoteInfo = "Pods-OCSwiftComponentDemo";
+		};
+		AC27E050D299CEBAA3763A7B3A221333 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44247EA73414AD2DD3C8CFD635A442A9;
+			remoteInfo = BeeHive;
 		};
 		AE67E3FFFEE73584C99B2B873BFC60D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -139,26 +147,19 @@
 			remoteGlobalIDString = 44247EA73414AD2DD3C8CFD635A442A9;
 			remoteInfo = BeeHive;
 		};
-		E946CC5699687678F40ECB094153749F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 44247EA73414AD2DD3C8CFD635A442A9;
-			remoteInfo = BeeHive;
-		};
-		F663303852C77108D9BF0A726C652380 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E76166BB846ABC770B86A7F988894306;
-			remoteInfo = OCSwiftComponentMain;
-		};
 		F8CF84D40EF5BF50037C20557D5500A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7D9187B40839BB7FEC25B4C72E53B259;
 			remoteInfo = ComponentServicesDemo;
+		};
+		F938981CABE411D3C77675FCA6D25172 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E76166BB846ABC770B86A7F988894306;
+			remoteInfo = OCSwiftComponentMain;
 		};
 		FAFD833074C5F60381368980DCC041A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -171,24 +172,28 @@
 
 /* Begin PBXFileReference section */
 		01ABDD3BC60A5B67E0D20B2D4D8DE960 /* BeeHive.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BeeHive.bundle; path = BeeHive/BeeHive.bundle; sourceTree = "<group>"; };
-		061C7F2F08158CBB7ECA848DD1B53ED3 /* ComponentServicesDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ComponentServicesDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		068B0D38EB33D2553F7B88FF9CB600F5 /* BeeHive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeeHive-prefix.pch"; sourceTree = "<group>"; };
-		0CE935A213C47EEC34555B5D9A608D4E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0BD17B4247246EF4A670840D70033485 /* OCSwiftComponentMain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCSwiftComponentMain.release.xcconfig; sourceTree = "<group>"; };
 		0E6CE206FECEB4BA4DC4E070088CE25F /* Pods-OCSwiftComponentDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OCSwiftComponentDemoTests.modulemap"; sourceTree = "<group>"; };
 		169121A4EDDFB6A5D9B0F695FCD7A3BC /* BHServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHServiceManager.m; path = BeeHive/BHServiceManager.m; sourceTree = "<group>"; };
+		16992D9B418B6E3B1D8E9697825935C6 /* OCSwiftComponentMain.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OCSwiftComponentMain.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		16DB697275F3421E092996AC61251F19 /* OCSwiftComponentA-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OCSwiftComponentA-Info.plist"; sourceTree = "<group>"; };
 		16DC86BE39A76D5BEA9DC1524EC1B3FD /* BHServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHServiceProtocol.h; path = BeeHive/BHServiceProtocol.h; sourceTree = "<group>"; };
+		196055D39356153B38A32192AAC5AE1C /* OCSwiftComponentAModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCSwiftComponentAModule.h; sourceTree = "<group>"; };
 		19925C958C14919F5AC585D36DC2CD64 /* BHConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHConfig.h; path = BeeHive/BHConfig.h; sourceTree = "<group>"; };
 		19F27E7FD8C5C4108ECE2D28D6CE89D7 /* BHAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHAppDelegate.h; path = BeeHive/BHAppDelegate.h; sourceTree = "<group>"; };
 		1B7B5F934245240B05CEFC7A2BE8B566 /* BHCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHCommon.h; path = BeeHive/BHCommon.h; sourceTree = "<group>"; };
-		2284091265FF9939C8071841C00577B5 /* OCSwiftComponentMain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCSwiftComponentMain.release.xcconfig; sourceTree = "<group>"; };
-		26F591A3192D40B3A445F2C5EE87FE3B /* BeeHive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BeeHive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		309F0F489E2FE3AC799DD3D27EDC86F2 /* OCSwiftComponentA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OCSwiftComponentA.modulemap; sourceTree = "<group>"; };
-		313738CA717880343B1CBB20F5FD3A18 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		321F8781A811458483776F4C0A1C770F /* Pods_OCSwiftComponentDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCSwiftComponentDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2321D42CB8644D991900B78850529875 /* OCSwiftComponentMain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCSwiftComponentMain.debug.xcconfig; sourceTree = "<group>"; };
+		26F591A3192D40B3A445F2C5EE87FE3B /* BeeHive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BeeHive.framework; path = BeeHive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EA6DE1FA937CD81B15ACE4FE6695831 /* ComponentServicesDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ComponentServicesDemo.release.xcconfig; sourceTree = "<group>"; };
+		30922B8560263780E9AFCD8E526896D3 /* OCSwiftComponentA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OCSwiftComponentA.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		311252410799FC32B6D55F1B130C6E96 /* OCSwiftComponentA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OCSwiftComponentA.modulemap; sourceTree = "<group>"; };
+		321F8781A811458483776F4C0A1C770F /* Pods_OCSwiftComponentDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OCSwiftComponentDemoTests.framework; path = "Pods-OCSwiftComponentDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D9AE76B60AED86C3CA01456C12B20F /* BHWatchDog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHWatchDog.h; path = BeeHive/BHWatchDog.h; sourceTree = "<group>"; };
-		36E63F2C267603A49CD2E669116399B1 /* Pods_OCSwiftComponentDemo_OCSwiftComponentDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCSwiftComponentDemo_OCSwiftComponentDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36E63F2C267603A49CD2E669116399B1 /* Pods_OCSwiftComponentDemo_OCSwiftComponentDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OCSwiftComponentDemo_OCSwiftComponentDemoUITests.framework; path = "Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		372ABF526D04858D4B4D467CB0C7377F /* ComponentServicesDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ComponentServicesDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		375404C328835ECF99A508F491FCB488 /* OCSwiftComponentA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCSwiftComponentA-umbrella.h"; sourceTree = "<group>"; };
 		3818E3A1D970EE6BE72A0AB44215A19C /* Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		3B651037956D853CBAB07918B40B7C59 /* OCSwiftComponentMain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCSwiftComponentMain-umbrella.h"; sourceTree = "<group>"; };
 		3B772B3E893FD517A4BD6F1D6CBF8769 /* Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3C0AD171EF698A1FC402DD0B88E954DE /* Pods-OCSwiftComponentDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCSwiftComponentDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3D84314AE7446E788CD704AA9D5FD90D /* BHContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHContext.h; path = BeeHive/BHContext.h; sourceTree = "<group>"; };
@@ -197,80 +202,78 @@
 		44DDD0C511AE6C2B1694C6FCD93832FD /* BHModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHModuleProtocol.h; path = BeeHive/BHModuleProtocol.h; sourceTree = "<group>"; };
 		47B15C810E5A5BBFAB535A9C9B9EE204 /* BHConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHConfig.m; path = BeeHive/BHConfig.m; sourceTree = "<group>"; };
 		47F1DE63AF91D0A9FD262824CFC02F21 /* BHAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHAppDelegate.m; path = BeeHive/BHAppDelegate.m; sourceTree = "<group>"; };
+		49E8425D9A8FC177CE0487B5FF60B2E3 /* OCSwiftComponentMain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OCSwiftComponentMain-Info.plist"; sourceTree = "<group>"; };
 		4B679830F51604B448672F12E1F7E5D2 /* Pods-OCSwiftComponentDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCSwiftComponentDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		52CE94F090041CE01F632C2A38B92054 /* OCSwiftComponentA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCSwiftComponentA-prefix.pch"; sourceTree = "<group>"; };
-		54223970D8A33A9559E501F9D99AC52A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4DB1BF78D8531D0F0B58CCBDD41DA11B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		543E75D7FB2E1CE4B1823DF0665651DC /* BHContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHContext.m; path = BeeHive/BHContext.m; sourceTree = "<group>"; };
+		54FD8A857919DBD0954F205F73C11D9F /* OCSwiftComponentAController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCSwiftComponentAController.h; sourceTree = "<group>"; };
 		55C687D719005BBA86464A0A3AB3C333 /* Pods-OCSwiftComponentDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCSwiftComponentDemoTests-Info.plist"; sourceTree = "<group>"; };
-		5602FFA2536F1019CABEA4B34EEDE7B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		57AA05D7C4DE0C60BB15867EB553B504 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5986A55AE36FCD857E6C1E8DA0FD5D4E /* Pods-OCSwiftComponentDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCSwiftComponentDemo-frameworks.sh"; sourceTree = "<group>"; };
 		5A0C050430F55EEB2B5114A8732FA46E /* Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests-Info.plist"; sourceTree = "<group>"; };
-		5D15743A120DD233096E3D321199041E /* OCSwiftComponentA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCSwiftComponentA.debug.xcconfig; sourceTree = "<group>"; };
-		60EBF6580D4F7B8E7CB8B5DB11C00789 /* OCSwiftMainModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCSwiftMainModel.m; path = OCSwiftComponentMain/Classes/OCSwiftMainModel.m; sourceTree = "<group>"; };
-		6312AB071864401F13442EF7F8A884D7 /* OCSwiftComponentA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCSwiftComponentA.release.xcconfig; sourceTree = "<group>"; };
+		5EB4BE2C3C8F2EABAD9598B0382DB89C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		66D56A94454E92D912A5704B270BB0AA /* BeeHive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BeeHive.debug.xcconfig; sourceTree = "<group>"; };
 		6779F20B2C4171342D9FF996737C77A8 /* BHAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHAnnotation.h; path = BeeHive/BHAnnotation.h; sourceTree = "<group>"; };
 		6D0C93B1FE284A471607309A074E6469 /* Pods-OCSwiftComponentDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCSwiftComponentDemo-Info.plist"; sourceTree = "<group>"; };
 		6E268DE87429280CB76A166166311333 /* Pods-OCSwiftComponentDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCSwiftComponentDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		6E3E1BA37571F3A6CB27D712302AB990 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		72A1FB38FD1BE2FADC7F4E0F1AC90045 /* BeeHive-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BeeHive-Info.plist"; sourceTree = "<group>"; };
+		73CE4A500109E19285158C3FB6895B59 /* OCSwiftComponentAController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCSwiftComponentAController.m; sourceTree = "<group>"; };
 		74D18192038B4453C0B566BB3B2DA012 /* BeeHive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeeHive-umbrella.h"; sourceTree = "<group>"; };
-		75C17DCC866DD9DFC1F48E5C1BE5FC56 /* OCSwiftComponentMain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCSwiftComponentMain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7714E2DE3EA0606B66A4A9AC58F72382 /* OCSwiftComponentAModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCSwiftComponentAModule.h; sourceTree = "<group>"; };
-		77595038855B4144A12B83AFFBCCC39F /* OCSwiftComponentA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCSwiftComponentA-umbrella.h"; sourceTree = "<group>"; };
-		78442598CBBC3DA57B03EC41ABEBAE80 /* OCSwiftComponentA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OCSwiftComponentA.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7C349A3EB7700307E0A857C5EBE648B8 /* OCSwiftComponentAController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCSwiftComponentAController.m; sourceTree = "<group>"; };
+		75C17DCC866DD9DFC1F48E5C1BE5FC56 /* OCSwiftComponentMain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OCSwiftComponentMain.framework; path = OCSwiftComponentMain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75CBC6F96384FF589973E7B9EB02842F /* OCSwiftMainViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSwiftMainViewController.h; path = OCSwiftComponentMain/Classes/OCSwiftMainViewController.h; sourceTree = "<group>"; };
 		7CB740FFFF8AAC7216D9416101C5B589 /* BeeHive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BeeHive-dummy.m"; sourceTree = "<group>"; };
-		7E05DEB1745CCBE51D2B3F2D03DE801F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7D845408C40C13C26857B5DDCBEF3035 /* ComponentServicesDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ComponentServicesDemo.debug.xcconfig; sourceTree = "<group>"; };
+		81CE0D73E77B405CB45F5F2E2640035F /* OCSwiftComponentA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCSwiftComponentA.h; sourceTree = "<group>"; };
 		85D9185DB9C91355D2637923D70F9D31 /* BHModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHModuleManager.h; path = BeeHive/BHModuleManager.h; sourceTree = "<group>"; };
 		8805E045E2AB05A07E6E9EBD672CD305 /* Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
 		881CB1570CCAF1A5AFCC231389FB0DE9 /* BHModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHModuleManager.m; path = BeeHive/BHModuleManager.m; sourceTree = "<group>"; };
-		8B89D971BC005D46AAE77EB46ED4D375 /* OCSwiftComponentAModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCSwiftComponentAModule.m; sourceTree = "<group>"; };
+		8B4DA793D69F8F879C9BE8F5CEF043C2 /* OCSwiftComponentAService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSwiftComponentAService.h; path = ComponentServicesDemo/Classes/OCSwiftComponentAService.h; sourceTree = "<group>"; };
 		8B9FE331E6009DF4458638BF18EF8B0E /* Pods-OCSwiftComponentDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCSwiftComponentDemo.release.xcconfig"; sourceTree = "<group>"; };
-		8C12DA3D544591E88869E6B85AC6567D /* OCSwiftComponentA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCSwiftComponentA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CD9AC67773F90153A3BD901DE924895 /* OCSwiftComponentMain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCSwiftComponentMain-dummy.m"; sourceTree = "<group>"; };
-		8F76AC5ACD8C7B4A5AEC5DABB4544F5D /* OCSwiftComponentMain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OCSwiftComponentMain.modulemap; sourceTree = "<group>"; };
+		8C12DA3D544591E88869E6B85AC6567D /* OCSwiftComponentA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OCSwiftComponentA.framework; path = OCSwiftComponentA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA97B81D6289B56C926AF912C4B6EFD /* OCSwiftComponentA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCSwiftComponentA.debug.xcconfig; sourceTree = "<group>"; };
+		8F777F0FD3E77858576A29483997533C /* OCSwiftComponentA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCSwiftComponentA-dummy.m"; sourceTree = "<group>"; };
 		922599C66DCD4D194B2D8B42C811F244 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		92B4FD2284FF063FEC21F66E246608FB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
-		933EE04580CC4B5D732D397E09EA061F /* OCSwiftComponentMain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCSwiftComponentMain.debug.xcconfig; sourceTree = "<group>"; };
 		93CB22FC999AC7FE27D9B48F25A1AD70 /* Pods-OCSwiftComponentDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCSwiftComponentDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		975236DD2C26F11F6206718F3B2B6DFE /* Pods-OCSwiftComponentDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCSwiftComponentDemoTests-umbrella.h"; sourceTree = "<group>"; };
-		97EF91571056E29D79F70C1032CC457F /* OCSwiftComponentA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCSwiftComponentA-dummy.m"; sourceTree = "<group>"; };
+		978AA9761BFAC518577CA23BD2B81563 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		98F8AC05F6193A4390F5229E0B8584E8 /* BHTimeProfiler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHTimeProfiler.m; path = BeeHive/BHTimeProfiler.m; sourceTree = "<group>"; };
 		9937D5E3B0C0F3E989BBBE35AE86891F /* BHRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHRouter.m; path = BeeHive/BHRouter.m; sourceTree = "<group>"; };
 		99D6E7AF136ACEAF7976B47A0D85090C /* BHRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHRouter.h; path = BeeHive/BHRouter.h; sourceTree = "<group>"; };
+		9AEAFA7643C9E70A0ECC4C2B11A30CB0 /* OCSwiftComponentA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCSwiftComponentA-prefix.pch"; sourceTree = "<group>"; };
+		9B9A5C52E09055E32353958C083B8617 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9BFC833832EAA8219856CDC83645AFFE /* OCSwiftComponentA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCSwiftComponentA.release.xcconfig; sourceTree = "<group>"; };
 		9C32954859138066836D1AB6C265B990 /* Pods-OCSwiftComponentDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OCSwiftComponentDemo.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3BB751DD750057A3FC1C7A54E86A4FC /* OCSwiftComponentAController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OCSwiftComponentAController.h; sourceTree = "<group>"; };
-		A6B6DD796305AD533366AF3F85EFA3F2 /* OCSwiftComponentMain.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OCSwiftComponentMain.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9F3114C0BCAE7BE4625D60BE70AB11B /* Pods-OCSwiftComponentDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCSwiftComponentDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB3E711C1C6E528DA31B8C3BAB4B6099 /* OCSwiftMainViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCSwiftMainViewController.m; path = OCSwiftComponentMain/Classes/OCSwiftMainViewController.m; sourceTree = "<group>"; };
 		ADE231ADC4EBD4CC1B5D8863CF442A1E /* Pods-OCSwiftComponentDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCSwiftComponentDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B34A65800BE4D39123FDC477E8D7CDE5 /* Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B38A0C503FE4A89A301F57411C7E831E /* OCSwiftComponentA-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OCSwiftComponentA-Info.plist"; sourceTree = "<group>"; };
+		B3BBE5D642C428A56780078A08F4CAAB /* OCSwiftComponentMain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCSwiftComponentMain-umbrella.h"; sourceTree = "<group>"; };
 		B576F0815DB13726DA6860AD3AC6E568 /* BeeHive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeeHive.h; path = BeeHive/BeeHive.h; sourceTree = "<group>"; };
-		BAFD07CF8EBE3FBCEF249370B263F194 /* OCSwiftComponentAService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSwiftComponentAService.h; path = ComponentServicesDemo/Classes/OCSwiftComponentAService.h; sourceTree = "<group>"; };
+		BBFF891A72AC0E281EF2CDDA2E11D822 /* OCSwiftMainModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSwiftMainModel.h; path = OCSwiftComponentMain/Classes/OCSwiftMainModel.h; sourceTree = "<group>"; };
 		BEB96D3C16FE3AF5D12410DB4E5DC2F6 /* BHAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHAnnotation.m; path = BeeHive/BHAnnotation.m; sourceTree = "<group>"; };
-		BF1E59B595E9C9F82D5FBFB1C98D327B /* Pods_OCSwiftComponentDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCSwiftComponentDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1E59B595E9C9F82D5FBFB1C98D327B /* Pods_OCSwiftComponentDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OCSwiftComponentDemo.framework; path = "Pods-OCSwiftComponentDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF271404267513AC7400E3FE913CC805 /* Pods-OCSwiftComponentDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCSwiftComponentDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		BFBF1069ED7B64AE3C091263F6F01820 /* ComponentServicesDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ComponentServicesDemo.release.xcconfig; sourceTree = "<group>"; };
 		C0FD6669025915C1BB09D9865E5358A0 /* Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests.modulemap"; sourceTree = "<group>"; };
 		C144AAB9A2E254107D10A01CE2DB2F96 /* Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests-dummy.m"; sourceTree = "<group>"; };
 		C4DBCB22D3A9AA0497F2403EE1C5DC6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C568745E0926A27A94F5660EBF91554F /* BHWatchDog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHWatchDog.m; path = BeeHive/BHWatchDog.m; sourceTree = "<group>"; };
-		C8D591C33FAD3C223045AFFB40F23EAB /* OCSwiftComponentMainService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSwiftComponentMainService.h; path = ComponentServicesDemo/Classes/OCSwiftComponentMainService.h; sourceTree = "<group>"; };
-		C9AC6945207DD45E889F9B2E780307CC /* ComponentServicesDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ComponentServicesDemo.debug.xcconfig; sourceTree = "<group>"; };
+		C60D2497BF31771D809B963585AD0374 /* OCSwiftComponentAModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OCSwiftComponentAModule.m; sourceTree = "<group>"; };
+		CA038C4139F0F91874B9B2F367784819 /* OCSwiftComponentMain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCSwiftComponentMain-prefix.pch"; sourceTree = "<group>"; };
 		CA80116BEDA2F2EFA09955B937F38079 /* Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests-umbrella.h"; sourceTree = "<group>"; };
-		D287280541891B857CA3763268727F46 /* OCSwiftComponentMain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCSwiftComponentMain-prefix.pch"; sourceTree = "<group>"; };
+		CE8077BE7C7CC290D3360C2D4612DF62 /* OCSwiftMainModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCSwiftMainModel.m; path = OCSwiftComponentMain/Classes/OCSwiftMainModel.m; sourceTree = "<group>"; };
+		D16B033EBD872DC2EE158B0F9406998B /* OCSwiftComponentBController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OCSwiftComponentBController.swift; sourceTree = "<group>"; };
+		D4B0C0AB6E938E323378194194C6A79B /* OCSwiftComponentMain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OCSwiftComponentMain.modulemap; sourceTree = "<group>"; };
 		DBFD5BCC8C94071CBE9CCA005A7931ED /* BHServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHServiceManager.h; path = BeeHive/BHServiceManager.h; sourceTree = "<group>"; };
 		DFF8CF75DA2F2B5CEF154E443CD5A16D /* BHTimeProfiler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHTimeProfiler.h; path = BeeHive/BHTimeProfiler.h; sourceTree = "<group>"; };
-		E004F1710CB7E8D5E434323584C10FCD /* OCSwiftComponentMain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OCSwiftComponentMain-Info.plist"; sourceTree = "<group>"; };
-		E0E5B96C50B550EA48088CFFA37F2A74 /* OCSwiftMainViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCSwiftMainViewController.m; path = OCSwiftComponentMain/Classes/OCSwiftMainViewController.m; sourceTree = "<group>"; };
+		E25B572C973681CD76A890AA2F5829F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E288314D3D95890699274148F891279D /* Pods-OCSwiftComponentDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCSwiftComponentDemo-dummy.m"; sourceTree = "<group>"; };
 		E2F63D4E7AC5465730D198616393CAA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E6665EB0F1DE89E0592E1B2D822431A9 /* OCSwiftMainModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSwiftMainModel.h; path = OCSwiftComponentMain/Classes/OCSwiftMainModel.h; sourceTree = "<group>"; };
+		E952B3DF6392FDCF69312AD828366A4C /* OCSwiftComponentMainService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSwiftComponentMainService.h; path = ComponentServicesDemo/Classes/OCSwiftComponentMainService.h; sourceTree = "<group>"; };
 		EA2DD47FF2E5C55E9838122C686DA3EE /* BeeHive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BeeHive.release.xcconfig; sourceTree = "<group>"; };
 		EEBB58A037F4CF65290AF992B67F46E2 /* Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F16E61209B2035AFC7921767801202BD /* OCSwiftMainViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCSwiftMainViewController.h; path = OCSwiftComponentMain/Classes/OCSwiftMainViewController.h; sourceTree = "<group>"; };
+		F00A01FDE62D23A0F1FFEECE70A9B01F /* OCSwiftComponentMain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCSwiftComponentMain-dummy.m"; sourceTree = "<group>"; };
 		F545BE5440EBB95DCCA0138E39733595 /* BeeHive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BeeHive.modulemap; sourceTree = "<group>"; };
 		FB98DD2944BF9A32FADF99AA9EDB6F5D /* BeeHive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BeeHive.m; path = BeeHive/BeeHive.m; sourceTree = "<group>"; };
 		FC4D9916A40D3111A39C82807CBD4E80 /* BeeHive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BeeHive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -278,22 +281,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2212E5D2EF300F0AF6B21A2AC502A5E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFCB676905B2E370BDDB7D2E7B85457 /* BeeHive.framework in Frameworks */,
+				1FAD56560C2B3B5C948FAC9C3AB9F7E4 /* Foundation.framework in Frameworks */,
+				925CB8898BF2C843E0F114AB6432A632 /* MapKit.framework in Frameworks */,
+				8899C9E5ADC486092E541AC3BA5AEC89 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		24467225029C864641426762E98BF5A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D6DA33D91C5711FCBCFB8275F03C012D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		442983E532D3137872C0DAAE055A54D6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A43752552867812EFDB15AB03065D14 /* BeeHive.framework in Frameworks */,
-				518D2D971FA60C9FDA5FF4CE9E1EDDDD /* Foundation.framework in Frameworks */,
-				74068C4999D4F5600A7A0CB5504F5072 /* MapKit.framework in Frameworks */,
-				38C52CC52DD54D1C9E105B20230C70EE /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,14 +326,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE1F72B254E968AC2874505970C60524 /* Frameworks */ = {
+		E527B12E5C7749DAC83F63B9D27C039F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				406261ACED9B648C66F913CAD5592D0A /* BeeHive.framework in Frameworks */,
-				D5DFE8BF0DA47A2EF5D1556ACE2076A2 /* Foundation.framework in Frameworks */,
-				2CEC8D70889A81AFBD9951E10014CF10 /* MapKit.framework in Frameworks */,
-				6E83BEFD692C3A0FC4605F969FC0A9BE /* UIKit.framework in Frameworks */,
+				ED82D31486A9DCB788CA9074455E7324 /* BeeHive.framework in Frameworks */,
+				BB21F49B6564ACCA7DEBC48479382B8F /* Foundation.framework in Frameworks */,
+				6080C2F77FAE37D0286B379B5FB77126 /* MapKit.framework in Frameworks */,
+				D52B614ADD1329A002ADBB34BA4E2CA5 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,17 +370,8 @@
 				8EFB561B9A942DD46D746A319EE55172 /* Resources */,
 				C208A6C53D45BF88DC75AB1262CA8701 /* Support Files */,
 			);
+			name = BeeHive;
 			path = BeeHive;
-			sourceTree = "<group>";
-		};
-		0CAEE6E17F8384C237C22AC6693ECD3F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				313738CA717880343B1CBB20F5FD3A18 /* LICENSE */,
-				78442598CBBC3DA57B03EC41ABEBAE80 /* OCSwiftComponentA.podspec */,
-				6E3E1BA37571F3A6CB27D712302AB990 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		0D40E980D6DE02A21E3A7E47FE55200A /* iOS */ = {
@@ -391,6 +385,17 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		0F94FBEC2C38E9AD3992F256317613D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				54FD8A857919DBD0954F205F73C11D9F /* OCSwiftComponentAController.h */,
+				73CE4A500109E19285158C3FB6895B59 /* OCSwiftComponentAController.m */,
+				D16B033EBD872DC2EE158B0F9406998B /* OCSwiftComponentBController.swift */,
+			);
+			name = Controllers;
+			path = OCSwiftComponentA/Classes/Controllers;
+			sourceTree = "<group>";
+		};
 		1400027D8B193C6710C5ADE671F4FD08 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -400,56 +405,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1695E37FB525B7F927209B241F62300F /* Controllers */ = {
+		441316E33AD10A867A40314664833068 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A3BB751DD750057A3FC1C7A54E86A4FC /* OCSwiftComponentAController.h */,
-				7C349A3EB7700307E0A857C5EBE648B8 /* OCSwiftComponentAController.m */,
-			);
-			name = Controllers;
-			path = OCSwiftComponentA/Classes/Controllers;
-			sourceTree = "<group>";
-		};
-		2B732B5F19B4C75F6639C0806EA92F6E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8F76AC5ACD8C7B4A5AEC5DABB4544F5D /* OCSwiftComponentMain.modulemap */,
-				8CD9AC67773F90153A3BD901DE924895 /* OCSwiftComponentMain-dummy.m */,
-				E004F1710CB7E8D5E434323584C10FCD /* OCSwiftComponentMain-Info.plist */,
-				D287280541891B857CA3763268727F46 /* OCSwiftComponentMain-prefix.pch */,
-				3B651037956D853CBAB07918B40B7C59 /* OCSwiftComponentMain-umbrella.h */,
-				933EE04580CC4B5D732D397E09EA061F /* OCSwiftComponentMain.debug.xcconfig */,
-				2284091265FF9939C8071841C00577B5 /* OCSwiftComponentMain.release.xcconfig */,
+				7D845408C40C13C26857B5DDCBEF3035 /* ComponentServicesDemo.debug.xcconfig */,
+				2EA6DE1FA937CD81B15ACE4FE6695831 /* ComponentServicesDemo.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../../Pods/Target Support Files/OCSwiftComponentMain";
-			sourceTree = "<group>";
-		};
-		57B1717834A1AF331734A5721C7670E6 /* ComponentServicesDemo */ = {
-			isa = PBXGroup;
-			children = (
-				BAFD07CF8EBE3FBCEF249370B263F194 /* OCSwiftComponentAService.h */,
-				C8D591C33FAD3C223045AFFB40F23EAB /* OCSwiftComponentMainService.h */,
-				813B644F8F68AC7B0A50F6CEEF743C66 /* Pod */,
-				B76585AB8D1D10EE2643DC5E767B0F2D /* Support Files */,
-			);
-			name = ComponentServicesDemo;
-			path = ../lib/ComponentServicesDemo;
-			sourceTree = "<group>";
-		};
-		580DCD2884F462486403660E754EE7A1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				309F0F489E2FE3AC799DD3D27EDC86F2 /* OCSwiftComponentA.modulemap */,
-				97EF91571056E29D79F70C1032CC457F /* OCSwiftComponentA-dummy.m */,
-				B38A0C503FE4A89A301F57411C7E831E /* OCSwiftComponentA-Info.plist */,
-				52CE94F090041CE01F632C2A38B92054 /* OCSwiftComponentA-prefix.pch */,
-				77595038855B4144A12B83AFFBCCC39F /* OCSwiftComponentA-umbrella.h */,
-				5D15743A120DD233096E3D321199041E /* OCSwiftComponentA.debug.xcconfig */,
-				6312AB071864401F13442EF7F8A884D7 /* OCSwiftComponentA.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/OCSwiftComponentA";
+			path = "../../Pods/Target Support Files/ComponentServicesDemo";
 			sourceTree = "<group>";
 		};
 		602053100CF14AAA42C094543AAAF425 /* Pods-OCSwiftComponentDemoTests */ = {
@@ -468,48 +431,62 @@
 			path = "Target Support Files/Pods-OCSwiftComponentDemoTests";
 			sourceTree = "<group>";
 		};
-		6596FC8B9F0CF27DB4E9105E1C63D315 /* Service */ = {
+		704FC628F7464F91D5B71472AC555CAD /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7714E2DE3EA0606B66A4A9AC58F72382 /* OCSwiftComponentAModule.h */,
-				8B89D971BC005D46AAE77EB46ED4D375 /* OCSwiftComponentAModule.m */,
+				9B9A5C52E09055E32353958C083B8617 /* LICENSE */,
+				16992D9B418B6E3B1D8E9697825935C6 /* OCSwiftComponentMain.podspec */,
+				5EB4BE2C3C8F2EABAD9598B0382DB89C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		79966EF9758715B1CB128C74EE54E07F /* ComponentServicesDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8B4DA793D69F8F879C9BE8F5CEF043C2 /* OCSwiftComponentAService.h */,
+				E952B3DF6392FDCF69312AD828366A4C /* OCSwiftComponentMainService.h */,
+				7B1095B47F96D5B96B254CEAAB811526 /* Pod */,
+				441316E33AD10A867A40314664833068 /* Support Files */,
+			);
+			name = ComponentServicesDemo;
+			path = ../lib/ComponentServicesDemo;
+			sourceTree = "<group>";
+		};
+		7B1095B47F96D5B96B254CEAAB811526 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				372ABF526D04858D4B4D467CB0C7377F /* ComponentServicesDemo.podspec */,
+				978AA9761BFAC518577CA23BD2B81563 /* LICENSE */,
+				4DB1BF78D8531D0F0B58CCBDD41DA11B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		83AB699359902B18E87F191CA20C60F9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				81CE0D73E77B405CB45F5F2E2640035F /* OCSwiftComponentA.h */,
+				196055D39356153B38A32192AAC5AE1C /* OCSwiftComponentAModule.h */,
+				C60D2497BF31771D809B963585AD0374 /* OCSwiftComponentAModule.m */,
 			);
 			name = Service;
 			path = OCSwiftComponentA/Classes/Service;
 			sourceTree = "<group>";
 		};
-		7169544F4C4B1D8398552EB05ED325F9 /* OCSwiftComponentMain */ = {
+		86EA6EB1C989B5D40E44EFB18CDAD382 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E6665EB0F1DE89E0592E1B2D822431A9 /* OCSwiftMainModel.h */,
-				60EBF6580D4F7B8E7CB8B5DB11C00789 /* OCSwiftMainModel.m */,
-				F16E61209B2035AFC7921767801202BD /* OCSwiftMainViewController.h */,
-				E0E5B96C50B550EA48088CFFA37F2A74 /* OCSwiftMainViewController.m */,
-				BD43F50950D8B6E9D78C83F6853AD529 /* Pod */,
-				2B732B5F19B4C75F6639C0806EA92F6E /* Support Files */,
+				D4B0C0AB6E938E323378194194C6A79B /* OCSwiftComponentMain.modulemap */,
+				F00A01FDE62D23A0F1FFEECE70A9B01F /* OCSwiftComponentMain-dummy.m */,
+				49E8425D9A8FC177CE0487B5FF60B2E3 /* OCSwiftComponentMain-Info.plist */,
+				CA038C4139F0F91874B9B2F367784819 /* OCSwiftComponentMain-prefix.pch */,
+				B3BBE5D642C428A56780078A08F4CAAB /* OCSwiftComponentMain-umbrella.h */,
+				2321D42CB8644D991900B78850529875 /* OCSwiftComponentMain.debug.xcconfig */,
+				0BD17B4247246EF4A670840D70033485 /* OCSwiftComponentMain.release.xcconfig */,
 			);
-			name = OCSwiftComponentMain;
-			path = ../lib/OCSwiftComponentMain;
-			sourceTree = "<group>";
-		};
-		7732B03E95889D71EDA266DBA2D04F7A /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				57B1717834A1AF331734A5721C7670E6 /* ComponentServicesDemo */,
-				C6ACD6D48C8BB0F5056C029405E5B919 /* OCSwiftComponentA */,
-				7169544F4C4B1D8398552EB05ED325F9 /* OCSwiftComponentMain */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		813B644F8F68AC7B0A50F6CEEF743C66 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				061C7F2F08158CBB7ECA848DD1B53ED3 /* ComponentServicesDemo.podspec */,
-				7E05DEB1745CCBE51D2B3F2D03DE801F /* LICENSE */,
-				5602FFA2536F1019CABEA4B34EEDE7B0 /* README.md */,
-			);
-			name = Pod;
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/OCSwiftComponentMain";
 			sourceTree = "<group>";
 		};
 		8EFB561B9A942DD46D746A319EE55172 /* Resources */ = {
@@ -518,6 +495,18 @@
 				01ABDD3BC60A5B67E0D20B2D4D8DE960 /* BeeHive.bundle */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		933726786EDADA3FD1DEFE27B24353ED /* OCSwiftComponentA */ = {
+			isa = PBXGroup;
+			children = (
+				0F94FBEC2C38E9AD3992F256317613D7 /* Controllers */,
+				D2972F0811C502B46CEC289CAB16BDC4 /* Pod */,
+				83AB699359902B18E87F191CA20C60F9 /* Service */,
+				A77BBE386DC73C1B512D56D6F490EF23 /* Support Files */,
+			);
+			name = OCSwiftComponentA;
+			path = ../lib/OCSwiftComponentA;
 			sourceTree = "<group>";
 		};
 		99BA10C62576C6F303B1DA6B6A283167 /* Pods-OCSwiftComponentDemo */ = {
@@ -537,6 +526,35 @@
 			path = "Target Support Files/Pods-OCSwiftComponentDemo";
 			sourceTree = "<group>";
 		};
+		A77BBE386DC73C1B512D56D6F490EF23 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				311252410799FC32B6D55F1B130C6E96 /* OCSwiftComponentA.modulemap */,
+				8F777F0FD3E77858576A29483997533C /* OCSwiftComponentA-dummy.m */,
+				16DB697275F3421E092996AC61251F19 /* OCSwiftComponentA-Info.plist */,
+				9AEAFA7643C9E70A0ECC4C2B11A30CB0 /* OCSwiftComponentA-prefix.pch */,
+				375404C328835ECF99A508F491FCB488 /* OCSwiftComponentA-umbrella.h */,
+				8EA97B81D6289B56C926AF912C4B6EFD /* OCSwiftComponentA.debug.xcconfig */,
+				9BFC833832EAA8219856CDC83645AFFE /* OCSwiftComponentA.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/OCSwiftComponentA";
+			sourceTree = "<group>";
+		};
+		AC747E639067637706DE4BB94696C850 /* OCSwiftComponentMain */ = {
+			isa = PBXGroup;
+			children = (
+				BBFF891A72AC0E281EF2CDDA2E11D822 /* OCSwiftMainModel.h */,
+				CE8077BE7C7CC290D3360C2D4612DF62 /* OCSwiftMainModel.m */,
+				75CBC6F96384FF589973E7B9EB02842F /* OCSwiftMainViewController.h */,
+				AB3E711C1C6E528DA31B8C3BAB4B6099 /* OCSwiftMainViewController.m */,
+				704FC628F7464F91D5B71472AC555CAD /* Pod */,
+				86EA6EB1C989B5D40E44EFB18CDAD382 /* Support Files */,
+			);
+			name = OCSwiftComponentMain;
+			path = ../lib/OCSwiftComponentMain;
+			sourceTree = "<group>";
+		};
 		B0A4BECC9D7A8D318C61FCC573020281 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -547,24 +565,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B76585AB8D1D10EE2643DC5E767B0F2D /* Support Files */ = {
+		BDD47E74BF750D887F06420EE2D74DAD /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C9AC6945207DD45E889F9B2E780307CC /* ComponentServicesDemo.debug.xcconfig */,
-				BFBF1069ED7B64AE3C091263F6F01820 /* ComponentServicesDemo.release.xcconfig */,
+				79966EF9758715B1CB128C74EE54E07F /* ComponentServicesDemo */,
+				933726786EDADA3FD1DEFE27B24353ED /* OCSwiftComponentA */,
+				AC747E639067637706DE4BB94696C850 /* OCSwiftComponentMain */,
 			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/ComponentServicesDemo";
-			sourceTree = "<group>";
-		};
-		BD43F50950D8B6E9D78C83F6853AD529 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0CE935A213C47EEC34555B5D9A608D4E /* LICENSE */,
-				A6B6DD796305AD533366AF3F85EFA3F2 /* OCSwiftComponentMain.podspec */,
-				54223970D8A33A9559E501F9D99AC52A /* README.md */,
-			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C208A6C53D45BF88DC75AB1262CA8701 /* Support Files */ = {
@@ -582,28 +590,26 @@
 			path = "../Target Support Files/BeeHive";
 			sourceTree = "<group>";
 		};
-		C6ACD6D48C8BB0F5056C029405E5B919 /* OCSwiftComponentA */ = {
-			isa = PBXGroup;
-			children = (
-				1695E37FB525B7F927209B241F62300F /* Controllers */,
-				0CAEE6E17F8384C237C22AC6693ECD3F /* Pod */,
-				6596FC8B9F0CF27DB4E9105E1C63D315 /* Service */,
-				580DCD2884F462486403660E754EE7A1 /* Support Files */,
-			);
-			name = OCSwiftComponentA;
-			path = ../lib/OCSwiftComponentA;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7732B03E95889D71EDA266DBA2D04F7A /* Development Pods */,
+				BDD47E74BF750D887F06420EE2D74DAD /* Development Pods */,
 				1400027D8B193C6710C5ADE671F4FD08 /* Frameworks */,
 				D9F9ADE51A866B7D2B475C48E3F9A873 /* Pods */,
 				F3940C3183BBFADD42A27B4FA95C7D3E /* Products */,
 				B0A4BECC9D7A8D318C61FCC573020281 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D2972F0811C502B46CEC289CAB16BDC4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E25B572C973681CD76A890AA2F5829F3 /* LICENSE */,
+				30922B8560263780E9AFCD8E526896D3 /* OCSwiftComponentA.podspec */,
+				57AA05D7C4DE0C60BB15867EB553B504 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		D9F9ADE51A866B7D2B475C48E3F9A873 /* Pods */ = {
@@ -647,23 +653,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		31493D3FBAE47D79B5AAC255808D6265 /* Headers */ = {
+		697B2B28BE9FDE6E7BB7CCC3AE48FEFE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DD62816F66A53C3BC795AC0F41D3F01 /* OCSwiftComponentMain-umbrella.h in Headers */,
-				83B23BEBC9A4D3AAA724FB0AF90A66AE /* OCSwiftMainModel.h in Headers */,
-				8D31629037285F3C9AB11CFAA2C457BF /* OCSwiftMainViewController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		634E0AB8E0E0AD0855F8D70EFAB8174B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B3921285B9EAE12B5043073DF7E92CA /* OCSwiftComponentA-umbrella.h in Headers */,
-				D3A3839ABD2572C0789F6B5466B30172 /* OCSwiftComponentAController.h in Headers */,
-				C55B9C85E07A489242CF9DF6F42DB9A3 /* OCSwiftComponentAModule.h in Headers */,
+				0E1C78880F2ACB25F60AABD4CDD24138 /* OCSwiftComponentMain-umbrella.h in Headers */,
+				4C29B45D6A82390DD9EC45D214DD3035 /* OCSwiftMainModel.h in Headers */,
+				AB1D9F1369CDFCC44B308AF1A45A6FC6 /* OCSwiftMainViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,6 +698,17 @@
 				898B91A33BABC371D6A1711051063F0C /* BHServiceProtocol.h in Headers */,
 				89EB4E99881F93731074D156F946BD78 /* BHTimeProfiler.h in Headers */,
 				9FF110DEEBDE1CCDC0C44F084FD0A3E6 /* BHWatchDog.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6B59B8C88AF8CBAFD1244E2A4A672B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962C5ADB1453B467F13A9C77CF899802 /* OCSwiftComponentA-umbrella.h in Headers */,
+				A48C2E3BE668B3156E9A17CF736040B6 /* OCSwiftComponentA.h in Headers */,
+				7E9ECD72695199EF86B41ECE2C89DB9A /* OCSwiftComponentAController.h in Headers */,
+				9E2EDCB73A2B16BBF6B68FCD6211D705 /* OCSwiftComponentAModule.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -749,7 +756,7 @@
 				EFF0690843EA4FC1E51F4B50C64DB5E4 /* PBXTargetDependency */,
 				A408F6D45CC658865FBE3893A45DDFC4 /* PBXTargetDependency */,
 				6A636B2CAC58B0DE611A6BB3622D457D /* PBXTargetDependency */,
-				0D9D91FBBDAACB8B0F5E76FD266FAE91 /* PBXTargetDependency */,
+				78964816AF49E1CA1F5525A25F3D57C2 /* PBXTargetDependency */,
 			);
 			name = "Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests";
 			productName = "Pods-OCSwiftComponentDemo-OCSwiftComponentDemoUITests";
@@ -771,7 +778,7 @@
 				014D49D4BDA42BFE7C07C4491C748B54 /* PBXTargetDependency */,
 				0B00A65E66AA7BEA8264C2B2710C7AD7 /* PBXTargetDependency */,
 				89CB2EB67CD0E83C790F6F5FA0A8A978 /* PBXTargetDependency */,
-				819F8E0A1D2A1008BBCD2B5529FB605F /* PBXTargetDependency */,
+				111CF9A14C7951E462D452B51A3BDA53 /* PBXTargetDependency */,
 			);
 			name = "Pods-OCSwiftComponentDemo";
 			productName = "Pods-OCSwiftComponentDemo";
@@ -780,17 +787,17 @@
 		};
 		B6A4E52C8C412CB712A51EB01AC7B807 /* OCSwiftComponentA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0D778D458F82939EB905E1B5B353351 /* Build configuration list for PBXNativeTarget "OCSwiftComponentA" */;
+			buildConfigurationList = 1FD197E7DF20C455C542C4CC6715BEE2 /* Build configuration list for PBXNativeTarget "OCSwiftComponentA" */;
 			buildPhases = (
-				634E0AB8E0E0AD0855F8D70EFAB8174B /* Headers */,
-				F1D2C7FAAC15DB3ECA3D2C4C707B26C3 /* Sources */,
-				EE1F72B254E968AC2874505970C60524 /* Frameworks */,
-				B148D377E0BB55E6451DDAC3F76BCB72 /* Resources */,
+				CD6B59B8C88AF8CBAFD1244E2A4A672B /* Headers */,
+				83735BBED7753DD1D686A42626588B7E /* Sources */,
+				2212E5D2EF300F0AF6B21A2AC502A5E7 /* Frameworks */,
+				12837FA1E9FE10D1FF525CC4AD6CDBAC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5AC5DBF3B630E971B25EA7E60C1766DB /* PBXTargetDependency */,
+				C064FFF2823BF31D5489F881561D09FA /* PBXTargetDependency */,
 			);
 			name = OCSwiftComponentA;
 			productName = OCSwiftComponentA;
@@ -818,17 +825,17 @@
 		};
 		E76166BB846ABC770B86A7F988894306 /* OCSwiftComponentMain */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2EC7CF7736C73F290F439B0E17580C94 /* Build configuration list for PBXNativeTarget "OCSwiftComponentMain" */;
+			buildConfigurationList = 6FD61B2D89F40D4390B0513EBDB2E829 /* Build configuration list for PBXNativeTarget "OCSwiftComponentMain" */;
 			buildPhases = (
-				31493D3FBAE47D79B5AAC255808D6265 /* Headers */,
-				1362852DAD6A278885A00A2E3F9FE353 /* Sources */,
-				442983E532D3137872C0DAAE055A54D6 /* Frameworks */,
-				3FF1886D89D60759FD12A2AE44ABC5BE /* Resources */,
+				697B2B28BE9FDE6E7BB7CCC3AE48FEFE /* Headers */,
+				0EB8E203EA80645B3312710552006E4A /* Sources */,
+				E527B12E5C7749DAC83F63B9D27C039F /* Frameworks */,
+				E73866634B124F8A949DA884FACAD26C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				76599E77E797501D59D86FBED0B440AF /* PBXTargetDependency */,
+				32278346CBA6B794346B6DB7CB6680B8 /* PBXTargetDependency */,
 			);
 			name = OCSwiftComponentMain;
 			productName = OCSwiftComponentMain;
@@ -869,7 +876,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3FF1886D89D60759FD12A2AE44ABC5BE /* Resources */ = {
+		12837FA1E9FE10D1FF525CC4AD6CDBAC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -897,7 +904,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B148D377E0BB55E6451DDAC3F76BCB72 /* Resources */ = {
+		E73866634B124F8A949DA884FACAD26C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -915,13 +922,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1362852DAD6A278885A00A2E3F9FE353 /* Sources */ = {
+		0EB8E203EA80645B3312710552006E4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D804B2863FEBB71B787081DED9E73EC4 /* OCSwiftComponentMain-dummy.m in Sources */,
-				8A8D0E2962C26F79AFCA29F5FFA4FF5E /* OCSwiftMainModel.m in Sources */,
-				ACD8F15AF7C364B8D211EAEC6310BAE3 /* OCSwiftMainViewController.m in Sources */,
+				CDF398C3EB0E58A0EE1546E6CFF3CFD2 /* OCSwiftComponentMain-dummy.m in Sources */,
+				C1185C0BD3417B8F2730641E94AD8CB5 /* OCSwiftMainModel.m in Sources */,
+				A7869D4AC3A4004C4FFF9979C7FF6B24 /* OCSwiftMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -930,6 +937,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8CCEB8B35A52F82966EAA9625E8AC27 /* Pods-OCSwiftComponentDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83735BBED7753DD1D686A42626588B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19156EC3126F6F0BF72C2506E034357E /* OCSwiftComponentA-dummy.m in Sources */,
+				F6B3E1B9BAE3DF1490B96E45B52E3BCC /* OCSwiftComponentAController.m in Sources */,
+				8B050798F41813E889387EB0E4E12260 /* OCSwiftComponentAModule.m in Sources */,
+				FFB6A6499ABF06098E88D34963DCA153 /* OCSwiftComponentBController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -959,16 +977,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1D2C7FAAC15DB3ECA3D2C4C707B26C3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D26BF9540E6B39368BE7C8E6493CBFC3 /* OCSwiftComponentA-dummy.m in Sources */,
-				097E3185E33E4B42078AE04B70749853 /* OCSwiftComponentAController.m in Sources */,
-				3BE3B283E2BE8DAF0A55B2EB7FA66CF6 /* OCSwiftComponentAModule.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FD7B851D1352DAA1A48AD2A8BA882679 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -992,17 +1000,17 @@
 			target = 7D9187B40839BB7FEC25B4C72E53B259 /* ComponentServicesDemo */;
 			targetProxy = F8CF84D40EF5BF50037C20557D5500A2 /* PBXContainerItemProxy */;
 		};
-		0D9D91FBBDAACB8B0F5E76FD266FAE91 /* PBXTargetDependency */ = {
+		111CF9A14C7951E462D452B51A3BDA53 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OCSwiftComponentMain;
 			target = E76166BB846ABC770B86A7F988894306 /* OCSwiftComponentMain */;
-			targetProxy = F663303852C77108D9BF0A726C652380 /* PBXContainerItemProxy */;
+			targetProxy = 0FD6CCE5843A4EEA8E024CECBBF67CEE /* PBXContainerItemProxy */;
 		};
-		5AC5DBF3B630E971B25EA7E60C1766DB /* PBXTargetDependency */ = {
+		32278346CBA6B794346B6DB7CB6680B8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BeeHive;
 			target = 44247EA73414AD2DD3C8CFD635A442A9 /* BeeHive */;
-			targetProxy = 8BECA8D63D9B94136349AED720F62908 /* PBXContainerItemProxy */;
+			targetProxy = AC27E050D299CEBAA3763A7B3A221333 /* PBXContainerItemProxy */;
 		};
 		6A636B2CAC58B0DE611A6BB3622D457D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1010,23 +1018,17 @@
 			target = B6A4E52C8C412CB712A51EB01AC7B807 /* OCSwiftComponentA */;
 			targetProxy = FAFD833074C5F60381368980DCC041A4 /* PBXContainerItemProxy */;
 		};
-		76599E77E797501D59D86FBED0B440AF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BeeHive;
-			target = 44247EA73414AD2DD3C8CFD635A442A9 /* BeeHive */;
-			targetProxy = E946CC5699687678F40ECB094153749F /* PBXContainerItemProxy */;
-		};
 		77EDE5EA4537CA3D230361323B77C13B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-OCSwiftComponentDemo";
 			target = 6642A486172C0E02A757A1E1DD1574EA /* Pods-OCSwiftComponentDemo */;
 			targetProxy = AA51E687BEC4C076672B51D92475DC39 /* PBXContainerItemProxy */;
 		};
-		819F8E0A1D2A1008BBCD2B5529FB605F /* PBXTargetDependency */ = {
+		78964816AF49E1CA1F5525A25F3D57C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OCSwiftComponentMain;
 			target = E76166BB846ABC770B86A7F988894306 /* OCSwiftComponentMain */;
-			targetProxy = 7E67CB2B499E515A669B482D4480171D /* PBXContainerItemProxy */;
+			targetProxy = F938981CABE411D3C77675FCA6D25172 /* PBXContainerItemProxy */;
 		};
 		89CB2EB67CD0E83C790F6F5FA0A8A978 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1046,6 +1048,12 @@
 			target = 7D9187B40839BB7FEC25B4C72E53B259 /* ComponentServicesDemo */;
 			targetProxy = 541B32A923B331586EBC1E4D8064533D /* PBXContainerItemProxy */;
 		};
+		C064FFF2823BF31D5489F881561D09FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BeeHive;
+			target = 44247EA73414AD2DD3C8CFD635A442A9 /* BeeHive */;
+			targetProxy = 624A485FF37AFCBEB30D474EE29E02DF /* PBXContainerItemProxy */;
+		};
 		EFF0690843EA4FC1E51F4B50C64DB5E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BeeHive;
@@ -1055,39 +1063,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0FABA3EF371525B1407679B58D928CF5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 933EE04580CC4B5D732D397E09EA061F /* OCSwiftComponentMain.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OCSwiftComponentMain/OCSwiftComponentMain-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OCSwiftComponentMain/OCSwiftComponentMain-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/OCSwiftComponentMain/OCSwiftComponentMain.modulemap";
-				PRODUCT_MODULE_NAME = OCSwiftComponentMain;
-				PRODUCT_NAME = OCSwiftComponentMain;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		123FB8E1EA9ABEA8F7C4666D9EC61D84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A9F3114C0BCAE7BE4625D60BE70AB11B /* Pods-OCSwiftComponentDemoTests.release.xcconfig */;
@@ -1126,9 +1101,9 @@
 			};
 			name = Release;
 		};
-		2B60538B423E97B513F074E7C35ADE8E /* Release */ = {
+		12C43BD0D5442495B73F8456621ABC01 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6312AB071864401F13442EF7F8A884D7 /* OCSwiftComponentA.release.xcconfig */;
+			baseConfigurationReference = 66D56A94454E92D912A5704B270BB0AA /* BeeHive.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1138,27 +1113,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OCSwiftComponentA/OCSwiftComponentA-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OCSwiftComponentA/OCSwiftComponentA-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/BeeHive/BeeHive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BeeHive/BeeHive-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/OCSwiftComponentA/OCSwiftComponentA.modulemap";
-				PRODUCT_MODULE_NAME = OCSwiftComponentA;
-				PRODUCT_NAME = OCSwiftComponentA;
+				MODULEMAP_FILE = "Target Support Files/BeeHive/BeeHive.modulemap";
+				PRODUCT_MODULE_NAME = BeeHive;
+				PRODUCT_NAME = BeeHive;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		30A92DD0C37D8A178345D1651A05EE53 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1236,9 +1211,43 @@
 			};
 			name = Release;
 		};
+		3D4A7F5BB9720F845113815A3145AF3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EA97B81D6289B56C926AF912C4B6EFD /* OCSwiftComponentA.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OCSwiftComponentA/OCSwiftComponentA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OCSwiftComponentA/OCSwiftComponentA-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OCSwiftComponentA/OCSwiftComponentA.modulemap";
+				PRODUCT_MODULE_NAME = OCSwiftComponentA;
+				PRODUCT_NAME = OCSwiftComponentA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		48D3E98D570C55E7F3B7D82C65416BD5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFBF1069ED7B64AE3C091263F6F01820 /* ComponentServicesDemo.release.xcconfig */;
+			baseConfigurationReference = 2EA6DE1FA937CD81B15ACE4FE6695831 /* ComponentServicesDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1389,9 +1398,9 @@
 			};
 			name = Release;
 		};
-		8B1634D00C4E244F572F400FA5A6337E /* Debug */ = {
+		89106D81E53A159E9BBF692010C05490 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66D56A94454E92D912A5704B270BB0AA /* BeeHive.debug.xcconfig */;
+			baseConfigurationReference = 0BD17B4247246EF4A670840D70033485 /* OCSwiftComponentMain.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1401,26 +1410,28 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BeeHive/BeeHive-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BeeHive/BeeHive-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/OCSwiftComponentMain/OCSwiftComponentMain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OCSwiftComponentMain/OCSwiftComponentMain-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/BeeHive/BeeHive.modulemap";
-				PRODUCT_MODULE_NAME = BeeHive;
-				PRODUCT_NAME = BeeHive;
+				MODULEMAP_FILE = "Target Support Files/OCSwiftComponentMain/OCSwiftComponentMain.modulemap";
+				PRODUCT_MODULE_NAME = OCSwiftComponentMain;
+				PRODUCT_NAME = OCSwiftComponentMain;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		8B741AC5A64EC8658CE79391A3115AC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1459,9 +1470,9 @@
 			};
 			name = Debug;
 		};
-		B15D781AD124B53E94266D2261E845C5 /* Debug */ = {
+		BE6E01663FD0FF71A646F53197FC9080 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D15743A120DD233096E3D321199041E /* OCSwiftComponentA.debug.xcconfig */;
+			baseConfigurationReference = 9BFC833832EAA8219856CDC83645AFFE /* OCSwiftComponentA.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1486,6 +1497,42 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF8CA8D108D929C4D905A68EB502C9CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2321D42CB8644D991900B78850529875 /* OCSwiftComponentMain.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OCSwiftComponentMain/OCSwiftComponentMain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OCSwiftComponentMain/OCSwiftComponentMain-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OCSwiftComponentMain/OCSwiftComponentMain.modulemap";
+				PRODUCT_MODULE_NAME = OCSwiftComponentMain;
+				PRODUCT_NAME = OCSwiftComponentMain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1560,7 +1607,7 @@
 		};
 		DE63AE554BC5E823AA29C552CD962FA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9AC6945207DD45E889F9B2E780307CC /* ComponentServicesDemo.debug.xcconfig */;
+			baseConfigurationReference = 7D845408C40C13C26857B5DDCBEF3035 /* ComponentServicesDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1574,7 +1621,7 @@
 			};
 			name = Debug;
 		};
-		E1B53F7F097946D191639FC56D64378C /* Release */ = {
+		DE9F6C2F1F4AFCC325D5C6D826C1E81A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EA2DD47FF2E5C55E9838122C686DA3EE /* BeeHive.release.xcconfig */;
 			buildSettings = {
@@ -1601,40 +1648,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F2311155BDBF8E2F5DC3D2933AC26CF8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2284091265FF9939C8071841C00577B5 /* OCSwiftComponentMain.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OCSwiftComponentMain/OCSwiftComponentMain-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OCSwiftComponentMain/OCSwiftComponentMain-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/OCSwiftComponentMain/OCSwiftComponentMain.modulemap";
-				PRODUCT_MODULE_NAME = OCSwiftComponentMain;
-				PRODUCT_NAME = OCSwiftComponentMain;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1654,11 +1668,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2EC7CF7736C73F290F439B0E17580C94 /* Build configuration list for PBXNativeTarget "OCSwiftComponentMain" */ = {
+		1FD197E7DF20C455C542C4CC6715BEE2 /* Build configuration list for PBXNativeTarget "OCSwiftComponentA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0FABA3EF371525B1407679B58D928CF5 /* Debug */,
-				F2311155BDBF8E2F5DC3D2933AC26CF8 /* Release */,
+				3D4A7F5BB9720F845113815A3145AF3D /* Debug */,
+				BE6E01663FD0FF71A646F53197FC9080 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1675,8 +1689,17 @@
 		5AE54B07F4700814D27CF0FEE5A93341 /* Build configuration list for PBXNativeTarget "BeeHive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B1634D00C4E244F572F400FA5A6337E /* Debug */,
-				E1B53F7F097946D191639FC56D64378C /* Release */,
+				12C43BD0D5442495B73F8456621ABC01 /* Debug */,
+				DE9F6C2F1F4AFCC325D5C6D826C1E81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FD61B2D89F40D4390B0513EBDB2E829 /* Build configuration list for PBXNativeTarget "OCSwiftComponentMain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8CA8D108D929C4D905A68EB502C9CB /* Debug */,
+				89106D81E53A159E9BBF692010C05490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1686,15 +1709,6 @@
 			buildConfigurations = (
 				DE63AE554BC5E823AA29C552CD962FA1 /* Debug */,
 				48D3E98D570C55E7F3B7D82C65416BD5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B0D778D458F82939EB905E1B5B353351 /* Build configuration list for PBXNativeTarget "OCSwiftComponentA" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B15D781AD124B53E94266D2261E845C5 /* Debug */,
-				2B60538B423E97B513F074E7C35ADE8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

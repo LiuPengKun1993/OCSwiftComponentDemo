@@ -11,7 +11,6 @@
 #endif
 
 #import "OCSwiftMainModel.h"
-#import "OCSwiftMainNavigationController.h"
 #import "OCSwiftMainViewController.h"
 
 FOUNDATION_EXPORT double OCSwiftComponentMainVersionNumber;

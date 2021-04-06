@@ -18,6 +18,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (nonnull UIViewController *)pushComponentAController;
 
 /**
+ 获取 Swift 控制器
+ */
+- (nonnull UIViewController *)pushSwiftComponentAController;
+
+/**
  获取 ComponentA 主控制器
  @param params 传参
  */
