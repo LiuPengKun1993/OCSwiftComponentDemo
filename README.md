@@ -22,7 +22,12 @@
 TODO：
   - 练习 OC/Swift 组件化混编
 
-优秀博客：
+参考博客：
   - [京东App Swift 混编及组件化落地](https://mp.weixin.qq.com/s/TRRjyB7vwwnYNb2Yd9FDIw)
   - [百度App Objective-C/Swift 组件化混编之路（一）](https://mp.weixin.qq.com/s/Vk6KNT_Ca_0se2eckYRuBg)
   - [百度App Objective-C/Swift 组件化混编之路（二）- 工程化](https://mp.weixin.qq.com/s/xA3g0GdNvfKNgfvG6imEvw)
+  - [从预编译的角度理解Swift与Objective-C及混编机制](https://tech.meituan.com/2021/02/25/swift-objective-c.html)
+  - [Swift和Objective-C混编在有赞移动的实践](https://tech.youzan.com/swifthe-objective-chun-bian-zai-you-zan-yi-dong-de-shi-jian/)
+  - [组件化开发之-如何解决Swift/OC-Framenwork/Library混合创建pod问题](https://www.jianshu.com/p/913df8cc1f18)
+  - [如何在模块化/组件化项目中实现 ObjC-Swift 混编？](https://shannonchenchn.github.io/2020/06/08/how-to-mix-objc-and-swift-in-a-modular-project/)
+  - [Swift 关于 module.modulemap 使用](https://www.jianshu.com/p/ce49d8f32f77)
