@@ -4,7 +4,8 @@
 
 如图：壳工程中只有 `AppDelegate` 文件，所有功能及业务均由组件完成；
 
-组件之间的通信使用的是 BeeHive；
+- 组件之间的通信使用的是 BeeHive；
+- OC/Swift 组件化混编；
 
 为了节省时间，我这里使用的是本地 pod；
 
@@ -19,8 +20,6 @@
 
 ---
 
-TODO：
-  - 练习 OC/Swift 组件化混编
 
 参考博客：
   - [京东App Swift 混编及组件化落地](https://mp.weixin.qq.com/s/TRRjyB7vwwnYNb2Yd9FDIw)
